@@ -1,0 +1,17 @@
+inout2.o:./inout2.f90
+	@nagfor -c -ieee=full ./inout2.f90
+
+matrix_solve.o:./matrix_solve.f90
+	@nagfor -c -ieee=full ./matrix_solve.f90
+
+myeigv.o:./myeigv.f90
+	@nagfor -c -ieee=full ./myeigv.f90
+
+main:./main.f90 inout2.o matrix_solve.o myeigv.o
+	@nagfor -c -ieee=full ./main.f90
+	@nagfor -o ./main main.o matrix_solve.o inout2.o myeigv.o -llapack
+	@./main
+clean:
+	@rm *.mod
+	@rm *.o
+

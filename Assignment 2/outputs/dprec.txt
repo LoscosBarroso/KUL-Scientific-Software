@@ -1,0 +1,16 @@
+ System Number 1:
+ Condition number of KKT matrix=    216.74757033898985     
+ Gauss Pivot method:
+   Relative 2-norm of the forward error =    7.8594346472140982E-015
+   Time taken by gauss pivot call is    2.5863999999999998E-005 s.
+ Schur complement method:
+   Relative 2-norm of the forward error =    1.6500802319526260E-014
+   Time taken by shur-comp.  call is    4.5605999999999997E-005 s.
+ System Number 2:
+ Condition number of KKT matrix=    786.63037347928559     
+ Gauss Pivot method:
+   Relative 2-norm of the forward error =    1.0686833205356464E-013
+   Time taken by gauss pivot call is    3.3476751999999999E-002 s.
+ Schur complement method:
+   Relative 2-norm of the forward error =    6.1633835226386937E-013
+   Time taken by shur-comp.  call is    3.1107840000000001E-002 s.

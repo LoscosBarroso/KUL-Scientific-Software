@@ -1,0 +1,16 @@
+r0737644@temse:~/Documents/Scientific Software/Assignment 3$ ./dmr 
+Enter the value for N: 1386
+Enter the blocksize of the sub-blocks: 22
+ 
+TIMING RESULTS:
+       IN BLOCKS:  2.01E+00 sec  2.04E+00 sec  2.03E+00 sec 
+                                 relative error =  2.61E-16
+
+r0737644@temse:~/Documents/Scientific Software/Assignment 3$ ./dmr 
+Enter the value for N: 1386
+Enter the blocksize of the sub-blocks: 63
+ 
+TIMING RESULTS:
+       IN BLOCKS:  2.32E+00 sec  2.31E+00 sec  2.31E+00 sec 
+                                 relative error =  1.88E-16
+

@@ -1,0 +1,38 @@
+Enter the value for N: Enter the blocksize of the sub-blocks:  
+TIMING RESULTS:
+             IJK:  3.89E-03 sec  3.89E-03 sec  3.90E-03 sec 
+                                 relative error =  0.00E+00
+             IKJ:  4.19E-03 sec  4.03E-03 sec  4.02E-03 sec 
+                                 relative error =  0.00E+00
+             JIK:  3.99E-03 sec  4.16E-03 sec  3.96E-03 sec 
+                                 relative error =  0.00E+00
+             JKI:  3.79E-03 sec  3.80E-03 sec  3.79E-03 sec 
+                                 relative error =  0.00E+00
+             KIJ:  3.96E-03 sec  4.00E-03 sec  4.00E-03 sec 
+                                 relative error =  0.00E+00
+             KJI:  3.82E-03 sec  3.82E-03 sec  3.82E-03 sec 
+                                 relative error =  0.00E+00
+     IKJ, J VECT:  3.07E-03 sec  3.08E-03 sec  3.11E-03 sec 
+                                 relative error =  0.00E+00
+     JKI, I VECT:  2.86E-03 sec  2.88E-03 sec  2.91E-03 sec 
+                                 relative error =  0.00E+00
+     KIJ, J VECT:  3.07E-03 sec  3.05E-03 sec  3.08E-03 sec 
+                                 relative error =  0.00E+00
+     KJI, I VECT:  2.89E-03 sec  2.90E-03 sec  2.88E-03 sec 
+                                 relative error =  0.00E+00
+  IJ DOT_PRODUCT:  2.74E-03 sec  2.74E-03 sec  2.72E-03 sec 
+                                 relative error =  0.00E+00
+  JI DOT_PRODUCT:  2.82E-03 sec  2.83E-03 sec  2.80E-03 sec 
+                                 relative error =  0.00E+00
+IJ TP DOT_PRODUCT: 2.70E-03 sec  2.69E-03 sec  2.69E-03 sec 
+                                 relative error =  0.00E+00
+JI TP DOT_PRODUCT: 2.68E-03 sec  2.69E-03 sec  2.71E-03 sec 
+                                 relative error =  0.00E+00
+      BLAS DGEMM:  1.87E-02 sec  3.45E-04 sec  2.90E-04 sec 
+                                 relative error =  1.10E-16
+       IN BLOCKS:  1.07E-02 sec  2.27E-02 sec  2.06E-02 sec 
+                                 relative error =  2.95E-16
+          MATMUL:  1.98E-02 sec  1.98E-02 sec  6.99E-03 sec 
+                                 relative error =  0.00E+00
+     OWN VARIANT:  1.01E-01 sec  3.97E-02 sec  2.52E-02 sec 
+                                 relative error =  3.52E-15

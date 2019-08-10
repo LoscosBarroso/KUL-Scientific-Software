@@ -1,0 +1,12 @@
+matrixop.o:./matrixop.f90
+	@nagfor -c -ieee=full ./matrixop.f90
+
+main:./dmr.f90 matrixop.o
+	@nagfor -c -ieee=full ./dmr.f90
+	@nagfor -o  ./dmr dmr.o matrixop.o -llapack -lblas
+	@./dmr
+clean:
+	@rm *.mod
+	@rm *.o
+	@rm ./dmr
+

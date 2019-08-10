@@ -1,0 +1,89 @@
+ Gauss 1:
+   Absolute 2-norm of the backward error =    2.37522818E-06
+   Relative 2-norm of the backward error =    2.36343865E-07
+   2-norm of the forward error =    1.43894610E-07
+ Gauss Pivot 1:
+   Absolute 2-norm of the backward error =    5.59141142E-07
+   Relative 2-norm of the backward error =    5.56365833E-08
+   2-norm of the forward error =    6.14390601E-08
+ Eigenvalues:
+ (   9.99999523     ,   0.00000000     )
+ (   20.0000153     ,   0.00000000     )
+ (   30.0000248     ,   0.00000000     )
+ (   39.9999886     ,   0.00000000     )
+ (   50.0000000     ,   0.00000000     )
+ Condition number =    12.9457054    
+ Sum of the eigenvalues =    150.000031    
+ 
+ Gauss 2:
+   Absolute 2-norm of the backward error =    6.56471588E-04
+   Relative 2-norm of the backward error =    1.77148399E-06
+   2-norm of the forward error =    1.20563018    
+ Gauss Pivot 2:
+   Absolute 2-norm of the backward error =    5.22000591E-05
+   Relative 2-norm of the backward error =    1.40861488E-07
+   2-norm of the forward error =   0.957422495    
+ Eigenvalues:
+ (  -2.28881836E-05 ,   0.00000000     )
+ (   10.0000267     ,   0.00000000     )
+ (   20.0000114     ,   0.00000000     )
+ (   99.9999313     ,   0.00000000     )
+ (   89.9999542     ,   0.00000000     )
+ (   30.0000381     ,   0.00000000     )
+ (   79.9999847     ,   0.00000000     )
+ (   39.9999847     ,   0.00000000     )
+ (   50.0000267     ,   0.00000000     )
+ (   60.0000000     ,   0.00000000     )
+ (   69.9999847     ,   0.00000000     )
+ Condition number =    16280.1758    
+ Sum of the eigenvalues =    549.999939    
+ 
+ Gauss 3:
+   Absolute 2-norm of the backward error =               NaN
+   Relative 2-norm of the backward error =               NaN
+   2-norm of the forward error =               NaN
+ Gauss Pivot 3:
+   Absolute 2-norm of the backward error =    3.51697709E-05
+   Relative 2-norm of the backward error =    3.81305370E-08
+   2-norm of the forward error =    1.27815274E-05
+ Eigenvalues:
+ (  -39.4374237     ,   0.00000000     )
+ (   3.70014167     ,   0.00000000     )
+ (   52.2164192     ,   35.0767365     )
+ (   52.2164192     ,  -35.0767365     )
+ (   100.375175     ,   0.00000000     )
+ (   22.8969707     ,   0.00000000     )
+ (   32.5654640     ,   0.00000000     )
+ (   45.0288620     ,   0.00000000     )
+ (   80.6666565     ,   0.00000000     )
+ (   65.0037460     ,   0.00000000     )
+ (   71.2391891     ,   0.00000000     )
+ Condition number =    761.441589    
+ Sum of the eigenvalues =    486.471649    
+ 
+ Gauss 4:
+   Absolute 2-norm of the backward error =    143415.750    
+   Relative 2-norm of the backward error =    4.74749498E-07
+   2-norm of the forward error =    5.99658298    
+ Gauss Pivot 4:
+   Absolute 2-norm of the backward error =    785090.312    
+   Relative 2-norm of the backward error =    2.59888634E-06
+   2-norm of the forward error =    74.4654770    
+ Eigenvalues:
+ (   4.99999539E+10 ,   0.00000000     )
+ (  -4.99999580E+10 ,   0.00000000     )
+ (   4.00000041E+10 ,   0.00000000     )
+ (  -4.00000328E+10 ,   0.00000000     )
+ (   3.00000174E+10 ,   0.00000000     )
+ (  -3.00000195E+10 ,   0.00000000     )
+ (  -1.99999693E+10 ,   0.00000000     )
+ (   2.00000041E+10 ,   0.00000000     )
+ (   1.00000072E+10 ,   0.00000000     )
+ (  -9.99998771E+09 ,   0.00000000     )
+ (  -10091.5586     ,   11313.8447     )
+ (  -10091.5586     ,  -11313.8447     )
+ (   4535.71680     ,   0.00000000     )
+ (   20997.8848     ,   0.00000000     )
+ Condition number =    22554.8555    
+ Sum of the eigenvalues =    24806.4844    
+ 

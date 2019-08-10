@@ -1,0 +1,30 @@
+%This file will plot data given in a file with three columns: h, single precision error and double precision error. The expected file name is res.out .
+
+\documentclass{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{tikz}
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+height=8cm,
+width=12cm,
+xmode = log,
+ymode = log,
+grid=both,
+grid style={line width=.1pt, draw=gray!20},
+major grid style={line width=.2pt,draw=gray!60},
+minor tick num=5,
+xlabel=$h$,ylabel=Error,
+x dir=reverse,
+legend pos=south west,
+legend style={font=\small}
+]
+\addplot+[mark=none,very thick,solid] table[x index=0, y index =1] {res.out}; % <======Adjust file name , x index = 0 means x can be found in column 0
+\addplot+[mark=none,very thick,densely dotted] table[x index=0, y index =2] {res.out}; % <======Adjust file name , x index = 0 means x can be found in column 0
+\legend{Single, Double};
+\end{axis}
+
+\end{tikzpicture}
+\end{document}   

@@ -1,0 +1,12 @@
+matrixop.o:./matrixop.f90
+	@ifort -c ./matrixop.f90
+
+dmr:./dmr.f90 matrixop.o
+	@ifort -c  ./dmr.f90
+	@ifort -o  ./dmr dmr.o matrixop.o -llapack -lblas
+	@./dmr
+clean:
+	@rm *.mod
+	@rm *.o
+	@rm ./dmr
+

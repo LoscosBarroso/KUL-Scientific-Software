@@ -1,0 +1,8 @@
+hello_n:
+	@gfortran -c ./hello_n.f95
+	@gfortran -o ./hello_n hello_n.o
+	@./hello_n 3
+
+clean:
+	@rm -f -r f_{files,modd}* *.o *.mod *.M *.d V*.inc *.vo \
+	V*.f *.dbg album F.err

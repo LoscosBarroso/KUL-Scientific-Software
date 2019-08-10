@@ -1,0 +1,12 @@
+   !Name: Daniel Loscos Barroso
+   !Compiler:
+   !Makefile included
+   !Answers:
+   integer :: n
+   read * , n
+10 if ( n .gt. 0 ) then
+      print *, "Hello, world!"
+      n = n-1
+      goto 10
+   endif
+  end program
